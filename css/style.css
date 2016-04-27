@@ -1,0 +1,269 @@
+/*******************************************************************************
+                                   BODY
+********************************************************************************/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+body {
+  color: #fff;
+}
+
+/*******************************************************************************
+                              TOP NAVIGATION
+********************************************************************************/
+
+.navbar {
+  background: transparent;
+  border: none;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff !important;
+  font-size: 15px;
+}
+
+.nav li a {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: #fff !important;
+  font-weight: 400;
+}
+
+.nav li a:hover {
+  border-bottom: 0.5px solid #fff;
+}
+
+/*******************************************************************************
+                                LANDING PAGE
+********************************************************************************/
+
+.jumbotron {
+  background: transparent url('../img/stars.jpeg') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+
+.cover-text {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-flow: column;
+  color: #fff;
+  width: 87%;
+}
+
+#top {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 2vw;
+  align-self: flex-start;
+}
+
+#middle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 7.5vw;
+  text-transform: uppercase;
+  color: #FFF;
+  text-shadow:
+   0px 1px #808d93,
+  -1px 0px #cdd2d5,
+  -1px 2px #808d93,
+  -2px 1px #cdd2d5,
+  -2px 3px #808d93,
+  -3px 2px #cdd2d5,
+  -3px 4px #808d93,
+  -4px 3px #cdd2d5,
+  -4px 5px #808d93,
+  -5px 4px #cdd2d5,
+  -5px 6px #808d93,
+  -6px 5px #cdd2d5,
+  -6px 7px #808d93,
+  -7px 6px #cdd2d5,
+  -7px 8px #808d93,
+  -8px 7px #cdd2d5;
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+
+#bottom {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 2vw;
+  align-self: flex-end;
+}
+
+/*******************************************************************************
+                                ABOUT PAGE
+********************************************************************************/
+
+.about-me {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-flow: column;
+  color: #fff;
+  width: 80%;
+}
+
+#aboutme {
+  display: flex;
+  align-self: center;
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 4.5vw;
+  margin-left: 40px;
+}
+
+.about-picture {
+  position: absolute;
+  height: 40vh;
+  width: 24vw;
+  background: transparent url('../img/24th.jpg') no-repeat center;
+  background-size: cover;
+  border: 5px solid #FFF;
+  border-radius: 50%;
+  bottom: 15px;
+  left: 32.5px;
+}
+
+.about-paragraph {
+  position: relative;
+  display: flex;
+  align-self: flex-end;
+  width: 60%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 1.5vw;
+}
+
+#education {
+  display: flex;
+  align-self: center;
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 4.5vw;
+  margin-top: -1.5px;
+  margin-left: 25px;
+}
+
+.college {
+  position: relative;
+  display: flex;
+  align-self: flex-end;
+  width: 60%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 1.5vw;
+}
+
+/*******************************************************************************
+                                 CONTACT PAGE
+********************************************************************************/
+
+.contact {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-flow: column;
+  color: #fff;
+  width: 60%;
+  background-color: none;
+}
+
+#contactme {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 4vw;
+  text-align: center;
+  margin-bottom: 6%;
+}
+
+.contact-form input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+.contact-form .row {
+  width: 100%;
+  padding-left: 20%;
+}
+
+.contact-form label, input {
+  background: none;
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  color: #fff;
+  font-size: 2vw;
+}
+
+.contact-form textarea, input {
+  border: 2px solid #FFF;
+  background-color: none;
+}
+
+#message {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 2vw;
+  color: #333;
+  background: none;
+}
+
+#submit_button {
+  border: none;
+  margin-left: 43%;
+}
+
+/*******************************************************************************
+                                BOTTOM NAVIGATION
+********************************************************************************/
+
+.nav-bottom {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+.social {
+  margin-top: 10px;
+  margin-left: -40px;
+}
+
+.social > li {
+  display: inline;
+}
+
+.social > li > a {
+  display: inline-block;
+  color: #fff;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+#legal {
+  padding-top: 18px;
+}
+
+/*******************************************************************************
+                                    EFFECTS
+********************************************************************************/
+
+.shadow {
+  -moz-box-shadow: 0 0 30px 5px #111;
+  -webkit-box-shadow: 0 0 30px 5px #111;
+}
